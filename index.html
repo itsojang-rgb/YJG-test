@@ -315,16 +315,6 @@ function showResult(){
     <div class="score-card jae"><span class="score-label">쟤 (Jae)</span><span class="score-num">${cnt.B}</span></div>
     <div class="score-card gae"><span class="score-label">걔 (Gae)</span><span class="score-num">${cnt.C}</span></div>
   </div>
-  <div class="share-box">
-    <button class="share-btn share-copy" id="copy-btn" onclick="copyLink('${r.type}')">🔗 링크 복사</button>
-    <button class="share-btn share-twitter" onclick="shareTwitter('${r.type}')">𝕏 공유하기</button>
-  </div>
-  <div class="submit-box">
-    <p>내 결과를 기록으로 남겨볼까요?<br>닉네임을 입력하면 구글 시트에 저장됩니다.</p>
-    <input type="text" id="nickname-input" placeholder="닉네임을 입력하세요" maxlength="20" />
-    <button class="submit-btn" id="submit-btn" onclick="submitResult(document.getElementById('nickname-input').value, '${r.type}')">결과 저장하기</button>
-    <div class="submit-msg" id="submit-msg"></div>
-  </div>
   <div class="newsletter-container" style="max-width: 500px; margin: 24px auto; padding: 25px; border: 2px solid #eee; border-radius: 15px; background-color: #ffffff; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
     <div class="psychological-hook" style="margin-bottom: 20px; border-bottom: 1px solid #f0f0f0; padding-bottom: 15px;">
       <p style="font-size: 14px; color: #666; line-height: 1.6; margin: 0;">
